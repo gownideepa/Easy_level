@@ -1,0 +1,13 @@
+s="aaabbbcdced"
+m={}
+for char in s:
+    m[char]=m.get(char,0)+1
+found=False
+for char in s:
+    if m[char]==1:
+        print(char)
+        found=True
+        break
+if not found:
+    print(-1)
+
