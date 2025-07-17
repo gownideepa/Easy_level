@@ -1,0 +1,11 @@
+s1="internet"
+s2="interview"  """longest common substring(prefix)"""
+s3=""
+i=0
+while i<len(s1) and i<len(s2):
+    if s1[i]==s2[i]:
+        s3+=s1[i]
+    else:
+        break
+    i+=1
+print(s3)
