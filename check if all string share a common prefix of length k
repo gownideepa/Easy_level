@@ -1,0 +1,10 @@
+l=["fight","fip","flop"]
+k=2
+prefix=l[0][]
+for i in l:
+    if  not i.startswith(prefix):
+        prefix=prefix[-1]
+if  not prefix:
+    print(prefix)
+else:
+    print("false")
