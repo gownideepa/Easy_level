@@ -9,7 +9,7 @@ else:
 if age >18:
     print("eligible")
 elif age==18:
-    print("eligible")
+    print("Eligible")
 else:
     print("Not eligible")
 #alternate way
