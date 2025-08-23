@@ -5,4 +5,4 @@ for i in l:
     if i not in m:
         m.append(i)
 m.sort()
-print(m[-2])
+print( m[-2] )
