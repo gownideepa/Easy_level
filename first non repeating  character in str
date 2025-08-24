@@ -1,4 +1,4 @@
-s="aaabbbcdced"
+s="aaabbbcdced "
 m={}
 for char in s:
     m[char]=m.get(char,0)+1
