@@ -8,4 +8,4 @@ while i<len(s1) and i<len(s2):
     else:
         break
     i+=1
-print(s3)
+print( s3 )
