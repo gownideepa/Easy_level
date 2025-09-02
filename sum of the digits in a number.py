@@ -1,4 +1,4 @@
-num=int(input('enter a number:'))
+num=int(input('Enter a number:'))
 sum=0 
 while num!=0:
     digit=int(num%10)
