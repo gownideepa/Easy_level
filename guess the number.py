@@ -7,7 +7,7 @@ for i in range(10):
     n=int(input("Enter number:"))
     #we need give hints and help to find the number within 10 chances
     if n>a:
-        print("guess lower")
+        print("Guess lower")
     elif n<a:
         print("guess higher")
     elif n==a:
