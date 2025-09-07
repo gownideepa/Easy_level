@@ -1,0 +1,29 @@
+
+def getrandomnumber(n):
+    if n==1:
+        return "deepa"
+    elif n==2:
+        return "radha"
+    elif n==3:
+        return "nagesh"
+    elif n==4:
+        return "geetha"
+    elif n==5:
+        return "mallikarjuna"
+    elif n==6:
+        return "something"
+    elif n==7:
+        return "nothing"
+    elif n==8:
+        return "anything"
+    elif n==9:
+        return "everything"
+    elif n==10:
+        return "bye"
+    else:
+        return "good bye"
+import random
+v=random.randint(1,10)
+m=getrandomnumber(v)
+
+print(m)
