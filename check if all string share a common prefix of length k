@@ -5,6 +5,6 @@ for i in l:
     if  not i.startswith(prefix):
         prefix=prefix[-1]
 if  not prefix:
-    print(prefix)
+    print("Prefix:",prefix)
 else:
     print("False")
