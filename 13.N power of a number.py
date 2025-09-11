@@ -3,4 +3,4 @@ exponent=int(input("Exponent:"))
 import math
 print(pow(base,exponent))#implies base to the power exponent
 #without math library
-print(base**exponent)
+print("Power: ",base**exponent)
