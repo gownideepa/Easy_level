@@ -4,7 +4,7 @@ prefix=l[0][]
 for i in l:
     if  not i.startswith(prefix):
         prefix=prefix[-1]
-if  not prefix:
-    print("Prefix:",prefix)
+if  not prefixs:
+    print("Prefix:",prefixs)
 else:
     print("False")
