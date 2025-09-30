@@ -1,0 +1,9 @@
+n=1002730
+s=str(n)
+c=''
+for i in range(len(s)):
+    if s[i]!='0':
+        c+=s[i]
+    else:
+        c+="1"
+print(c)
