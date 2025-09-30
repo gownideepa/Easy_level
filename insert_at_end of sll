@@ -1,0 +1,29 @@
+class node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+def insert_at_end(head,ele):
+    new_node=node(ele)
+    if head is None:
+        return new_node
+    curr=head
+    while curr.next:
+        curr=curr.next
+    curr.next=new_node
+    return head
+def print_ll(head):
+    curr=head
+    while curr is not None:
+        print(f"{curr.data}",end=" ")
+        curr=curr.next
+    print()
+
+
+head=node(10)
+head.next=node(9)
+head.next.next=node(8)
+head.next.next.next=node(7)
+head.next.next.next.next=node(6)
+ele=5
+head=insert_at_end(head,ele)
+print_ll(head)
