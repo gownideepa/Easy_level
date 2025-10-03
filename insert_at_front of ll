@@ -12,7 +12,7 @@ def print_ll(head):
     while curr is not None:
         print(f"{curr.data}",end=" ")
         curr=curr.next
-    print()
+    print("Hi")
 
 head=node(10)
 head.next=node(9)
