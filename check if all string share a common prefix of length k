@@ -1,3 +1,4 @@
+# list consisting of few elements
 l=["fight","fip","flop"]
 k=2
 prefix=l[0][]
