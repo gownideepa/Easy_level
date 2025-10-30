@@ -1,6 +1,6 @@
 #using conditional statements
 #take input from user
-age=int(input("enter ur age:"))
+age=int(input("Enter ur age:"))
 if age>=18:
     print("Eligible to vote")
 else:
