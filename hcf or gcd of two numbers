@@ -1,3 +1,4 @@
+# program to find gcd and lcm of two numbers
 num1=int(input())
 num2=int(input())
 hcf=1
