@@ -1,7 +1,7 @@
 base=int(input("Base:"))
 exponent=int(input("Exponent:"))
 import math
-print(pow(base,exponent))#implies base to the power exponent
+print("Power of",base," is ",pow(base,exponent))#implies base to the power exponent
 
 
 
