@@ -9,7 +9,7 @@ for i in range(10):
     if n>a:
         print("Guess lower")
     elif n<a:
-        print("guess higher")
+        print("Guess higher")
     elif n==a:
         print("congratulations! you guessed correctly.")
         flag=1 
