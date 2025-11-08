@@ -2,9 +2,9 @@
 #take input from user
 age=int(input("Enter ur age:"))
 if age>=18:
-    print("Eligible to vote")
+    print(" You are Eligible to vote")
 else:
-    print("Not eligible")
+    print("You are Not eligible")
 #alternate way
 if age >18:
     print("eligible")
