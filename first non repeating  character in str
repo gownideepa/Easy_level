@@ -1,3 +1,4 @@
+# finding first non repeating character
 s="aaabbbcdced "
 m={}
 for char in s:
