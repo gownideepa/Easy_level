@@ -1,3 +1,4 @@
+
 number=7
 divisors=2
 count=0
@@ -8,4 +9,4 @@ for i in range(1,number+1):
             count_fact+=1
     if count_fact== divisors:
         count+=1
-print(count)
+print("count:",count)
