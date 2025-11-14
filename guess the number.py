@@ -16,4 +16,4 @@ for i in range(10):
         #if we guesssed the correct number in 2 chance itself then no need of remaining chances,so break that loop
         break
 if flag==0:
-    print("sorry,chances are out of range , try again...")
+    print("sorry,chances are out of range , try again...") # shows that you failed to guess the number correctly
