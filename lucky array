@@ -1,3 +1,4 @@
+// printing lucky array
 n=int(input())
 arr=list(map(int,input().split()))
 count=0
