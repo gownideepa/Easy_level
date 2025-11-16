@@ -1,2 +1,3 @@
+// known as mind game
 k=int(input())
 print(k//2)
