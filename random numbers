@@ -1,4 +1,4 @@
-
+# just to check how random works
 def getrandomnumber(n):
     if n==1:
         return "deepa"
