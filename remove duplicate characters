@@ -1,5 +1,5 @@
 # program to remove duplicate characters in a string
-s="google"
+s="google"  # here the word google consists of double oo ,so we remove one o from that
 m=""
 for i in range(len(s)):
     if s[i] not in m:
