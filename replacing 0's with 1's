@@ -1,3 +1,4 @@
+# we replace 0's with 1's
 n=1002730
 s=str(n)
 c=''
