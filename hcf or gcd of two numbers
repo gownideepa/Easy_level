@@ -7,4 +7,4 @@ for i in range(1,min(num1,num2)):
         hcf=i
 # we can say that product of two numbers is equal to product of lcm and hcf
 lcm=(num1 * num2)//hcf
-print("lcm of two numbers:",lcm)
+print("Lcm of two numbers:",lcm)
