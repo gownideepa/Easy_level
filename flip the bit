@@ -2,5 +2,5 @@
 num,pos=map(int,input().split())
 mask= 1<<pos
 m=num^mask
-print(m)
+print("after fliping:",m)
    
