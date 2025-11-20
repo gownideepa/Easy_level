@@ -11,7 +11,7 @@ for i in range(10):
     elif n<a:
         print("Guess higher")
     elif n==a:
-        print("congratulations! you guessed correctly.")
+        print("Congratulations! you guessed correctly.")
         flag=1 
         #if we guesssed the correct number in 2 chance itself then no need of remaining chances,so break that loop
         break
