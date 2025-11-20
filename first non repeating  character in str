@@ -8,7 +8,7 @@ for char in s:
     if m[char]==1:
         print(char)
         found=True
-        break
+        break // exit completely out of the loop
 if not found:
     print(-1)
 
