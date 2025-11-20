@@ -17,7 +17,7 @@ def print_ll(head):
     while curr is not None:
         print(f"{curr.data}",end=" ")
         curr=curr.next
-    print()
+    print() // it is for newline
 
 
 head=node(10)
