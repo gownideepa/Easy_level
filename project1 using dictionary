@@ -7,7 +7,7 @@ menu={
     "tea":10,
     "salad":30
 }
-print("Welcome to the restaurant")
+print("Welcome to the restaurant...!")
 print("pizza :50\-\n burger :60\-\npasta :90\-\ncoffee :20\-\n tea :10\-\n salad:30\- ")
 
 order_total=0
