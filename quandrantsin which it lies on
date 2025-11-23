@@ -14,4 +14,4 @@ elif n1==0 and n2==0:
 elif n1==0 and n2>0:
     print("on y axis")
 elif n1>0 and n2==0:
-    print("on x axis")
+    print("On x axis")
