@@ -1,7 +1,7 @@
 // Finding longest common suffix
 s=['happiness','kindness','darkness']
 suffix=s[0]
-for i in s[1:]:
+for i in s[1:] :
     while not i.endswith(suffix):
         suffix=suffix[1:]
         if not suffix:
