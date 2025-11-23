@@ -26,4 +26,4 @@ import random
 v=random.randint(1,10)
 m=getrandomnumber(v)
 
-print("random name:",m)
+print("Random name:",m)
