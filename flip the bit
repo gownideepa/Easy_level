@@ -1,6 +1,6 @@
 # flips the bits
 num,pos=map(int,input().split())
-mask= 1<<pos
+mask=1<<pos
 m=num^mask
 print("after fliping:",m)
    
